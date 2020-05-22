@@ -16,17 +16,17 @@ module.exports = {
     {
       resolve: `gatsby-source-git`,
       options: {
-        name: `repo-one`,
+        name: `distributed_docs_service_1`,
         remote: `https://github.com/dannyphillips/distributed_docs_service_1.git`,
-        patterns: [`*`, `!*.md`],
+        patterns: [`*`],
       },
     },
     {
       resolve: `gatsby-source-git`,
       options: {
-        name: `repo-two`,
+        name: `distributed_docs_service_2`,
         remote: `https://github.com/dannyphillips/distributed_docs_service_2.git`,
-        patterns: [`*`, `!*.md`],
+        patterns: [`*`],
       },
     },
     `gatsby-plugin-mdx`,
