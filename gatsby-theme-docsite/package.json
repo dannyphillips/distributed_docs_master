@@ -1,0 +1,10 @@
+{
+  "name": "gatsby-theme-docsite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Danny Phillips <danny.phillips8@gmail.com> (@dannyphillips)",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": "^2.6.0"
+  }
+}
